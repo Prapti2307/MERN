@@ -1,0 +1,116 @@
+.add-recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ffecd2, #fcb69f); /* Pastel Gradient */
+    padding: 20px;
+}
+
+/* Title Styling */
+h2 {
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Form Styling */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+/* Label Styling */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #4a4a4a;
+}
+
+/* Input, Select, and Textarea Styling */
+input, select, textarea {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 100%;
+    color: black !important;  /* Ensures text input is black */
+    background-color: white !important;  /* White background for better visibility */
+}
+
+/* Placeholder Styling */
+input::placeholder,
+textarea::placeholder {
+    color: #888 !important;  /* Light gray placeholder text */
+}
+
+/* Textarea Styling */
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Focus Effect */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #219ebc;
+    box-shadow: 0px 0px 5px rgba(33, 158, 188, 0.5);
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Add Recipe Button */
+.add-btn {
+    background-color: #8ecae6; /* Light blue */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Go to Dashboard Button */
+.dashboard-btn {
+    background-color: #ff8fab; /* Soft pink */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.add-btn:hover {
+    background-color: #219ebc;
+}
+
+.dashboard-btn:hover {
+    background-color: #ff6384;
+}
+
+/* Success Message */
+.success-message {
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+}

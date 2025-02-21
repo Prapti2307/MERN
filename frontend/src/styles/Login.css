@@ -1,0 +1,22 @@
+.login-container {
+    width: 350px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .login-form input:focus {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  

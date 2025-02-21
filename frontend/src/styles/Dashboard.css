@@ -1,0 +1,23 @@
+.dashboard-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.dashboard-btn {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dashboard-btn:hover {
+  background-color: #e65c00;
+}
